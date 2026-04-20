@@ -5,7 +5,7 @@ const centeredPyramid = (string, num, boolean) => {
         for(let j = 0; j < num - i; j++){
             result += " ";
         }
-        for(let k = 0; k < (2*i - 1); k++){
+        for(let d = 0; d < (2*i - 1); d++){
             result += string;
         }
         result += "\n";
@@ -16,7 +16,7 @@ const centeredPyramid = (string, num, boolean) => {
         for(let j = 0; j < num - i; j++){
             result += " ";
         }
-        for(let k = 0; k < (2*i - 1); k++){
+        for(let d = 0; d < (2*i - 1); d++){
             result += string;
         }
         result += "\n";
@@ -24,4 +24,4 @@ const centeredPyramid = (string, num, boolean) => {
     return result;
   }
  };
-  console.log(centeredPyramid("o", 4, false));
+  console.log(centeredPyramid("o", 4, true));
